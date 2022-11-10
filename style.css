@@ -1,0 +1,110 @@
+/* UTILITIES */
+* {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(131, 131, 131);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.page-structure {
+    margin-left: 30px;
+    font-weight: 100;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgb(131, 131, 131);
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    border-bottom: 1px;
+}
+
+.menu a:visited {
+    color: black;
+}
+
+.menu li {
+    padding-top: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.pictures {
+    margin: 0;
+}
+
+.big-picture img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.small-pictures img {
+    margin: 0;
+    width: 164.1px;
+    height: 100px;
+    object-fit: cover;
+}
+.small-pictures img:first-child {
+    margin-left: 10px;
+}
+
+.item {
+    margin-right: 0;
+    padding-right: 32vh;
+    border-bottom: 1px solid rgb(131, 131, 131);
+}
+
+.item h1 {
+    margin-top: 0;
+    font-weight: 300;
+    color: rgb(45, 45, 45);
+}
+
+.item-description {
+    margin-top: 35px;
+}
+
+.button {
+    background-color: rgb(54, 54, 54);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+  }
